@@ -1,8 +1,7 @@
-const palavra=prompt('Digite uma palavra: ')
+const palavra=prompt('digite uma palavra: ')
 
-function verificarpalindrome(){
-const palavrainvertida=palavra.split(' ').reverse().join('');
-return palavra===palavrainvertida
+function palindromo(){
+    const palavraivertida=palavra.split(' ').reverse().join('')
+return palavraivertida===palavra
 }
- console.log(verificarpalindrome())
- 
+ console.log(palindromo())
